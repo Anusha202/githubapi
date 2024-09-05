@@ -1,16 +1,5 @@
-// async function fetchData() {
-//     var user = document.getElementById("loginid").value;
-//     console.log(user);
-//     if (user === "") {
-//       alert("Please enter a GitHub ID");
-//     } else {
-//       try {
-//         const response = await fetch(`https://api.github.com/users/${user}`);
-//         if (response.status === 403) {
-//           throw new Error("API rate limit exceeded");
-//         }
-//         const data = await response.json();
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {  //awaiter is an asynchronous function used by typescript
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
